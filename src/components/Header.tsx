@@ -32,21 +32,8 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Home</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Soluções</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Recursos</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Integrações</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Preços</a>
-            <a href="#" className="text-foreground hover:text-primary transition-colors">Blog</a>
-          </nav>
-
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button variant="outline">
-              Entrar
-            </Button>
             <Button className="bg-primary text-primary-foreground hover:bg-accent">
               Teste Grátis
             </Button>
@@ -65,14 +52,7 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="lg:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col space-y-4">
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Home</a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Soluções</a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Recursos</a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Integrações</a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Preços</a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">Blog</a>
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="outline">Entrar</Button>
                 <Button className="bg-primary text-primary-foreground hover:bg-accent">
                   Teste Grátis
                 </Button>

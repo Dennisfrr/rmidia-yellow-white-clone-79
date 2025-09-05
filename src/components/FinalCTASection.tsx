@@ -29,16 +29,13 @@ const FinalCTASection = () => {
           <div className="flex justify-center items-center space-x-8 mb-12">
             <div className="flex items-center space-x-2">
               <Instagram className="w-8 h-8 text-pink-500" />
-              <Instagram className="w-8 h-8 text-pink-500" />
             </div>
             
             <div className="flex items-center space-x-2">
               <MessageCircle className="w-8 h-8 text-green-500" />
-              <MessageCircle className="w-8 h-8 text-green-500" />
             </div>
             
             <div className="flex items-center space-x-2">
-              <Send className="w-8 h-8 text-blue-500" />
               <Send className="w-8 h-8 text-blue-500" />
             </div>
           </div>
