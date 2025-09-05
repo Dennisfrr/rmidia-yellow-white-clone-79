@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import teamWorking from "@/assets/team-working.png";
+import teamWorking from "@/assets/image2.png";
 
 const WhatsAppApiSection = () => {
   return (

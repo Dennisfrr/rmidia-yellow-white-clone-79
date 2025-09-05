@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Instagram, Send } from "lucide-react";
-import crmInterface from "@/assets/crm-interface.png";
+import crmInterface from "@/assets/image3.png";
 const HeroSection = () => {
   return <section className="bg-gradient-to-br from-white to-yellow-50 py-20">
       <div className="container mx-auto px-4">

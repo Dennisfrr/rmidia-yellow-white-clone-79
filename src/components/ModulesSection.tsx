@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import teamWorking from "@/assets/team-working.png";
-import crmInterface from "@/assets/crm-interface.png";
+import teamWorking from "@/assets/image2.png";
+import crmInterface from "@/assets/image4.png";
 
 const ModulesSection = () => {
   const modules = [

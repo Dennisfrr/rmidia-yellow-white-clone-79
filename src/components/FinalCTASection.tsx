@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Instagram, Send } from "lucide-react";
-import crmInterface from "@/assets/crm-interface.png";
+import crmInterface from "@/assets/image1.png";
 
 const FinalCTASection = () => {
   return (

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import crmInterface from "@/assets/crm-interface.png";
+import crmInterface from "@/assets/image4.png";
 
 const IntegrationsSection = () => {
   return (
