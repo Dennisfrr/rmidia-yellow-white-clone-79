@@ -34,7 +34,10 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-4">
-            <Button className="bg-primary text-primary-foreground hover:bg-accent">
+            <Button 
+              className="bg-primary text-primary-foreground hover:bg-accent"
+              onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
+            >
               Teste Grátis
             </Button>
           </div>
@@ -53,7 +56,10 @@ const Header = () => {
           <nav className="lg:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col space-y-4">
               <div className="flex flex-col space-y-2 pt-4">
-                <Button className="bg-primary text-primary-foreground hover:bg-accent">
+                <Button 
+                  className="bg-primary text-primary-foreground hover:bg-accent"
+                  onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
+                >
                   Teste Grátis
                 </Button>
               </div>

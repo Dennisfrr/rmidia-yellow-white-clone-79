@@ -92,6 +92,7 @@ const FeaturesGrid = () => {
           <Button 
             size="lg" 
             className="bg-primary text-primary-foreground hover:bg-accent px-8 py-4 rounded-full"
+            onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
           >
             Falar com um especialista!
           </Button>

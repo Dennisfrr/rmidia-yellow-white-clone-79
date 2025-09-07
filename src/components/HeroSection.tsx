@@ -17,7 +17,11 @@ const HeroSection = () => {
             <strong>plataforma integrada ao WhatsApp</strong>, Instagram Direct e Facebook Messenger
           </p>
 
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-accent px-8 py-6 text-lg rounded-full mb-16">
+          <Button 
+            size="lg" 
+            className="bg-primary text-primary-foreground hover:bg-accent px-8 py-6 text-lg rounded-full mb-16"
+            onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
+          >
             Assistir demonstração
           </Button>
 

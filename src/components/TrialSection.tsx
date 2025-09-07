@@ -17,6 +17,7 @@ const TrialSection = () => {
             size="lg" 
             variant="secondary"
             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-full text-lg font-semibold"
+            onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
           >
             Quero fazer o teste grátis!
           </Button>
