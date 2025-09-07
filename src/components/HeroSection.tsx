@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { MessageCircle, Instagram, Send } from "lucide-react";
 import crmInterface from "@/assets/image3.png";
 const HeroSection = () => {
   return <section className="bg-gradient-to-br from-white to-yellow-50 py-20">
@@ -25,23 +24,6 @@ const HeroSection = () => {
             Assistir demonstração
           </Button>
 
-          {/* Social Media Icons */}
-          <div className="flex justify-center items-center space-x-8 mb-16">
-            <div className="flex items-center space-x-2">
-              <Instagram className="w-8 h-8 text-pink-500" />
-              
-            </div>
-            
-            <div className="flex items-center space-x-2">
-              <MessageCircle className="w-8 h-8 text-green-500" />
-              
-            </div>
-            
-            <div className="flex items-center space-x-2">
-              <Send className="w-8 h-8 text-blue-500" />
-              
-            </div>
-          </div>
 
           {/* CRM Interface Image */}
           <div className="relative">

@@ -103,6 +103,7 @@ const PricingSection = () => {
                     <Button 
                       variant="link" 
                       className="text-red-500 hover:text-red-600 p-0 h-auto font-semibold"
+                      onClick={() => window.open('https://wa.me/+5583986245525', '_blank')}
                     >
                       Ver detalhes
                     </Button>
